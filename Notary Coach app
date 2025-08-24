@@ -1,0 +1,25 @@
+# Notary Coach AI – Subscription App
+
+This project is a **paywalled AI coaching platform** designed for Notary Signing Agents (NSAs).  
+It allows users to register, subscribe via **Stripe Checkout**, and then access an **AI assistant** (powered by OpenAI) that provides step-by-step guidance for loan signings, borrower communication, and business building.
+
+## ✨ Features
+- 🔑 **Secure authentication** with JWT
+- 💳 **Stripe subscription paywall** (monthly recurring)
+- 🤖 **OpenAI-powered Q&A** with an NSA-focused system prompt
+- 🌐 **Frontend static site** with sign-in, subscribe, dashboard, FAQ, and checklist
+- 📦 **FastAPI backend** for authentication, billing, and AI chat
+- 🗄️ **SQLite database** (upgradeable to Postgres in production)
+
+## 🧰 Tech Stack
+- **Backend:** FastAPI, SQLAlchemy, Uvicorn
+- **Frontend:** HTML, CSS, JavaScript
+- **Payments:** Stripe Checkout + Webhooks
+- **AI:** OpenAI Responses API (`gpt-5.1-mini`)
+- **Auth:** JWT-based login & signup
+- **Hosting:** Render (or any platform supporting Python & static sites)
+
+---
+
+⚠️ **Disclaimer:** This tool is for educational and business coaching purposes only. It is **not legal advice**.  
+Users should always follow their state’s SOS, title/escrow, and underwriter requirements.
